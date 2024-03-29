@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #495057;
+}
+
+body table span,
+body table a {
+  color: #495057;
+}
+
+body table a {
+  text-decoration: none;
+}
+
+body table i {
+  color: #7950f2;
+}
+
+table .active-link span {
+  color: #7950f2;
+  font-weight: 700;
+}
+
+.card table td {
+  border: none;
+  padding: 10px;
+}
+
+.card table th {
+  border: none;
+}
+
+.card table th::before {
+  content: "\2758";
+  color: rgb(181, 183, 186);
+  margin-right: 5px;
+}
+
+.card table {
+  border: 1px solid rgb(222, 226, 230);
+}
+
+::placeholder {
+  color: #898e92 !important;
+  font-size: 14px;
+}
