@@ -28,6 +28,7 @@ const Login = () => {
       "https://hotel-booking-node-app.onrender.com/admin-login",
       {
         method: "POST",
+        credentials: "include",
         headers: {
           "Content-Type": "application/json"
         },
