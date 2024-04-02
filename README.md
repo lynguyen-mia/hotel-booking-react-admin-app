@@ -8,7 +8,7 @@ This React application provides a platform for manage hotels and rooms for admin
 - Transaction processing: Display transactions along with payment and status.
 
 ## Tech Stack:
-React [v18.3.0]
-Bootstrap [v5.3.2]
-React Router
-Fetch API
+- React [v18.2.0]
+- Bootstrap [v5.3.2]
+- React Router
+- Fetch API
